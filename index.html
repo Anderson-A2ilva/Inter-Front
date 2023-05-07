@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pif-On</title>
+    <link rel="stylesheet" href="style/nav.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <nav class="sidebar">
+        <a href="#" class="logo"></a>
+
+        <img class="PifonLogo" src="img/Icon_Logo.png" alt="pif on">
+
+        <div class="menu-content">
+            <ul class="menu-items">
+                <div class="menu-title">CATEGORIAS</div>
+
+                <li class="item">
+                    <a href="#">Guerragga</a>
+                </li>
+
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Hardware</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Perifericos
+                        </div>
+                        <li class="item">
+                            <a href="#">Perifericos</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Cadeiras</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Monitores</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Computadores</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Computadores
+                        </div>
+                        <li class="item">
+                            <a href="#">Notbooks</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Descktop</a>
+                        </li>
+
+                </li>
+
+                <li class="item">
+                    <a href="#">enchendo </a>
+                </li>
+
+                <li class="item">
+                    <a href="#">linguiça</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <form action="#" method="pt">
+
+            <!--navegação-->
+            <input class="searchbar" tyoe="text" name="search" id="search" placeholder="Faça sua Busca" required>
+            <span class="searchButton">
+                <i class='bx bx-search'></i>
+            </span>
+
+    </nav>
+    </form>
+
+    <main class="main">
+
+        <!--carrossel-->
+        <div class="container-slider">
+            <script src="js/carrossel.js"></script>
+            <button id="prev-button"><img src="/img/arrow.png" alt="prev-button"></button>
+            <div class="container-slider-images">
+                <img src="img/gabinete.produto3.png" alt="gabinete" class="slider on">
+                <img src="img/Monitor.produto3.png" alt="Monitor" class="slider">
+                <img src="img/mouse.produto1.png" alt="mouse" class="slider">
+                <img src="img/teclado.produto2.png" alt="teclado" class="slider">
+            </div>
+            <button id="next-button"><img src="img/arrow.png" alt="next-button"></button>
+    </main>
+
+    <script src="js/sideBar.js"></script>
+</body>
+
+</html>
